@@ -91,7 +91,7 @@ Lung cancer for men goes down, but is still rising for women.
 
 
 
-# prediction of incidence for 2023
+# prediction of incidence for 2022
 
 
 
