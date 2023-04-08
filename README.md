@@ -44,12 +44,15 @@ Population size per age group is in file pop_ag.csv
 
 Incidence is given as new cancer cases per 100,000 in respective age group 
 
-The incidence is different for every age group and changing over time.
+# The incidence is different for every age group and changing over time.
 ![prostatacancer_incidence](https://github.com/marl2en/cancer/blob/main/prostatacancer_incidence.png)
 
 
-Most cancer types are more common in elderly people, but others not like brain cancer, testicle cancer.
+# Most cancer types are more common in elderly people, but others not like brain cancer, testicle cancer.
 ![heatmapMen2021](https://github.com/marl2en/cancer/blob/main/heatmapMen2021_inicence_logview.png)
+
+# Log View of womens cancer incidence for 2021
+![heatmapWomen2021](https://github.com/marl2en/cancer/blob/main/heatmapWomen2021_inicence_logview.png)
 
 
 https://austinrochford.com/posts/apc-pymc.html
