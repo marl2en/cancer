@@ -69,6 +69,27 @@ The model looks like this:
 ![model](https://github.com/marl2en/cancer/blob/main/model.png)
 
 
+Age groups (ages), years and cohorts are time dependent and represented by gaussian random walks. 
+After training (interference with real data) let's try to predict (cancer_fut). 
+
+The output is saved in a csv summary file and as images. 
+
+# Example: Lung Cancer
+![lung_trachea_bronchi_Men](https://github.com/marl2en/cancer/blob/main/lung_trachea_bronchi_Men.png)
+
+
+![lung_trachea_bronchi_Women](https://github.com/marl2en/cancer/blob/main/lung_trachea_bronchi_Women.png)
+
+Lung cancer for men goes down, but is still rising for women.
+
+![lung_trachea_bronchi_cohorts](https://github.com/marl2en/cancer/blob/main/lung_trachea_bronchi_cohorts.png)
+
+![lung_trachea_bronchi_AgeGroups](https://github.com/marl2en/cancer/blob/main/lung_trachea_bronchi_AgeGroups.png)
+
+![lung_trachea_bronchi_years](https://github.com/marl2en/cancer/blob/main/lung_trachea_bronchi_years.png)
+
+
+
 
 # prediction of incidence for 2023
 
