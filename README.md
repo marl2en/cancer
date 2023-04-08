@@ -48,11 +48,22 @@ Incidence is given as new cancer cases per 100,000 in respective age group
 ![prostatacancer_incidence](https://github.com/marl2en/cancer/blob/main/prostatacancer_incidence.png)
 
 
-# Most cancer types are more common in elderly people, but others not like brain cancer, testicle cancer.
+# Most cancer types are more common in elderly people, but others are not like brain cancer, testicle cancer.
 ![heatmapMen2021](https://github.com/marl2en/cancer/blob/main/heatmapMen2021_inicence_logview.png)
 
 # Log View of womens cancer incidence for 2021
 ![heatmapWomen2021](https://github.com/marl2en/cancer/blob/main/heatmapWomen2021_inicence_logview.png)
+
+
+# Estimation of undiagnosed cancer in 2020 and 2021 
+Because of the "pandemic" (™) according to WHO a number of cancer cases went undiagnosed. The difference is estimated by a SSM fitted by data until 2019 and forecast for 2020,21,22
+
+![men2020diff](https://github.com/marl2en/cancer/blob/main/men2020diff.png)
+
+![women2020diff](https://github.com/marl2en/cancer/blob/main/women2020diff.png)
+
+
+
 
 
 https://austinrochford.com/posts/apc-pymc.html
