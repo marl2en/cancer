@@ -4,7 +4,8 @@ Analysis by gender, age group, cancer type and prediction
 
 # Analysis of Cancer Data in Sweden 1970-2021. Prediction for 2022. 
 
-The data is presented in 5-years age groups AG = ['0_4', '5_9','10_14','15_19','20_24','25_29','30_34','35_39','40_44','45_49','50_54','55_59','60_64','65_69','70_74','75_79','80_84','85+'] 
+The data is presented in 5-years age groups AG 
+'0_4', '5_9','10_14','15_19','20_24','25_29','30_34','35_39','40_44','45_49','50_54','55_59','60_64','65_69','70_74','75_79','80_84','85+' 
 
 cancer types are:
  ['breast','other_skin_cancer','uterus_cervix_corpus','colon_rectum','urinary_tract','melanoma','lung_trachea_bronchi','brain','esophagus','kidney', 'liver_bile_duct', 'other_endocrine_glandes', 
@@ -36,11 +37,19 @@ Parameters are:
 - count_mean/lower/upper: count forecast with pymc3 model
 - incidence_mean/lower/upper: incidence forecast with pymc3 model
 
-see numbers_pymc3.json
+
+see numbers.gz (numbers_pymc3.json)
 
 Population size per age group is in file pop_ag.csv 
 
 Incidence is given as new cancer cases per 100,000 in respective age group 
+
+The incidence is different for every age group and changing over time.
+![prostatacancer_incidence](https://github.com/marl2en/cancer/blob/main/prostatacancer_incidence.png)
+
+
+Most cancer types are more common in elderly people, but others not like brain cancer, testicle cancer.
+![heatmapMen2021](https://github.com/marl2en/cancer/blob/main/heatmapMen2021_inicence_logview.png)
 
 
 https://austinrochford.com/posts/apc-pymc.html
