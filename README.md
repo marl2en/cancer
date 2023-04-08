@@ -62,11 +62,12 @@ Because of the "pandemic" (™) according to WHO a number of cancer cases went u
 
 ![women2020diff](https://github.com/marl2en/cancer/blob/main/women2020diff.png)
 
+# Bayesian Statistical Model with pymc3
+Inspired by Austin Rochford (https://austinrochford.com/posts/apc-pymc.html) a model is build for every cancer type and gender. 
 
+The model looks like this:
+![model](https://github.com/marl2en/cancer/blob/main/model.png)
 
-
-
-https://austinrochford.com/posts/apc-pymc.html
 
 
 # prediction of incidence for 2023
